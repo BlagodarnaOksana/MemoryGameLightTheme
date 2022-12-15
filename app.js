@@ -118,6 +118,7 @@ function startHardGame() {
 function startGame() {
   const txtScore = document.querySelector('#txtScore')
   txtScore.style.visibility = "visible"
+
   createBoard()
 }
 
@@ -125,7 +126,7 @@ function createBoard() {
   btnEasy.style.visibility = "hidden"
   btnMedium.style.visibility = "hidden"
   btnHard.style.visibility = "hidden"
-  btnContainer.style.top = '1000px'
+  btnContainer.style.visibility = "hidden"
 
   for (let i = 0; i < cardArrayNew.length; i++) {
     const card = document.createElement('img')
@@ -159,15 +160,15 @@ function checkMatch() {
 
     cards[optionOneId].style.animationName = 'none'
     cards[optionOneId].style.transform = 'none'
-    cards[optionOneId].style.borderRadius = '5px'
-    cards[optionOneId].style.border = 'none'
-    cards[optionOneId].style.margin = '2px'
+    cards[optionOneId].style.borderRadius = '2px'
+    cards[optionOneId].style.border = 'solid 1px rgb(79, 63, 50)'
+    cards[optionOneId].style.margin = '4px'
 
     cards[optionTwoId].style.animationName = 'none'
     cards[optionTwoId].style.transform = 'none'
-    cards[optionTwoId].style.borderRadius = '5px'
-    cards[optionTwoId].style.border = 'none'
-    cards[optionOneId].style.margin = '2px'
+    cards[optionTwoId].style.borderRadius = '2px'
+    cards[optionTwoId].style.border = 'solid 1px rgb(79, 63, 50)'
+    cards[optionOneId].style.margin = '4px'
   } else {
     cards[optionOneId].setAttribute('src', 'img/blank.png')
     cards[optionTwoId].setAttribute('src', 'img/blank.png')
