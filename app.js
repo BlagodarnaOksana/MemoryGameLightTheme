@@ -1,67 +1,67 @@
 const cardArray = [
   {
-    name: 'apple',
-    img: 'img/apple.png'
+    name: 'img1',
+    img: 'img/1.png'
   },
   {
-    name: 'balloon',
-    img: 'img/balloon.png'
+    name: 'img2',
+    img: 'img/2.png'
   },
   {
-    name: 'heart',
-    img: 'img/heart.png'
+    name: 'img3',
+    img: 'img/3.png'
   },
   {
-    name: 'spanchbob',
-    img: 'img/spanchbob.png'
+    name: 'img4',
+    img: 'img/4.png'
   },
   {
-    name: 'spiderman',
-    img: 'img/spiderman.png'
+    name: 'img5',
+    img: 'img/5.png'
   },
   {
-    name: 'star',
-    img: 'img/star.png'
+    name: 'img6',
+    img: 'img/6.png'
   },
   {
-    name: 'butterfly',
-    img: 'img/butterfly.png'
+    name: 'img7',
+    img: 'img/7.png'
   },
   {
-    name: 'jerry',
-    img: 'img/jerry.png'
+    name: 'img8',
+    img: 'img/8.png'
   },
   {
-    name: 'mario',
-    img: 'img/mario.png'
+    name: 'img9',
+    img: 'img/9.png'
   },
   {
-    name: 'mickey',
-    img: 'img/mickey.png'
+    name: 'img10',
+    img: 'img/10.png'
   },
   {
-    name: 'minion',
-    img: 'img/minion.png'
+    name: 'img11',
+    img: 'img/11.png'
   },
   {
-    name: 'pingv',
-    img: 'img/pingv.png'
+    name: 'img12',
+    img: 'img/12.png'
   },
   {
-    name: 'sonic',
-    img: 'img/sonic.png'
+    name: 'img13',
+    img: 'img/13.png'
   },
   {
-    name: 'teddy',
-    img: 'img/teddy.png'
+    name: 'img14',
+    img: 'img/14.png'
   },
   {
-    name: 'tiger',
-    img: 'img/tiger.png'
+    name: 'img15',
+    img: 'img/15.png'
   },
   {
-    name: 'tom',
-    img: 'img/tom.png'
+    name: 'img16',
+    img: 'img/16.png'
   }
 ]
 

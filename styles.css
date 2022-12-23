@@ -1,14 +1,24 @@
 body {
-  background-color: #fbf8f1;
+  background-image: url(img/background.jpg);
   width: 100%;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'Old-Soviet';
+  src: local('Old-Soviet'),
+    url('font/Old-Soviet.otf') format('truetype');
 }
 
 h1 {
   width: 200px;
   font-size: 32px;
-  font-weight: 600;
   top: -10px;
-  color: #3c322a;
+  mix-blend-mode: lighten;
+  color: #000;
+  font-family: 'Old-Soviet';
+  position: relative;
+  background: linear-gradient(to right, #baac9f, #9198e500 95%);
 }
 
 .btnContainer {
@@ -19,9 +29,12 @@ h1 {
   height: 450px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
+  border-radius: 7px;
   display: flex;
   flex-direction: column;
+  border: #3c322a solid 2px;
+  box-shadow: inset #3c322a 0 0 40px 10px,
+    #3c322a 0 0 24px 12px;
 }
 
 .btnContainer>span {
@@ -31,6 +44,7 @@ h1 {
   top: 30px;
   font-size: 32px;
   font-weight: 600;
+  font-family: 'Old-Soviet';
 }
 
 .button {
@@ -43,6 +57,7 @@ h1 {
   margin-right: auto;
   margin-top: 70px;
   border-radius: 3px;
+  font-family: 'Old-Soviet';
 }
 
 .button:focus,
@@ -61,14 +76,16 @@ h1 {
 }
 
 #txtScore {
-  font-size: 24px;
-  color: #3c322a;
-  width: 490px;
-
+  font-size: 26px;
+  width: 590px;
+  font-family: 'Old-Soviet';
+  font-weight: 700px;
   visibility: hidden;
   position: absolute;
   top: 20px;
-  left: 35%;
+  left: 30%;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
 }
 
 .gridEasyLvl {
@@ -128,8 +145,8 @@ h1 {
   width: 170px;
   height: 170px;
   background-repeat: no-repeat;
-  top: 10px;
-  left: 80%;
+  top: 45%;
+  left: 45%;
 }
 
 @keyframes animWrongCard {
@@ -158,9 +175,9 @@ h1 {
   background-image: url(img/congratsAnim.gif);
   background-size: contain;
   position: absolute;
-  top: 100px;
-  width: 100%;
-  height: 800px;
-  left: 0px;
+  top: 90px;
+  width: 500px;
+  height: 500px;
+  left: 35%;
   visibility: hidden;
 }
